@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+
+
+{% block title %}Delete A Cafe{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Delete a cafe from the database</h1>
+
+      <form method="post" action="{{ url_for('delete_cafe') }}">
+        {{ render_form(form, novalidate=True) }}
+      </form>
+
+	  <p class="space-above"><a href="{{ url_for('cafes') }}">See all cafes</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

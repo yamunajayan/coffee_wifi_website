@@ -1,0 +1,62 @@
+/* This CSS file will need to be added to the styling of 
+your web pages for the styles to be rendered. */
+
+body {
+background-color: #A7BEAE;
+color: white;
+}
+
+.album{
+background-color: #A7BEAE;
+color: white;
+}
+
+a {
+    color: #B85042;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: #A7BEAE;
+}
+
+h5{
+color: black;
+}
+
+
+.table-custom {
+  background-color: #E7E8D1	; /* Replace with your desired color code or name */
+}
+
+.table-custom th {
+  background-color:#E7E8D1	; /* Replace with your desired color code or name for header cells */
+  color: #B85042; /* Set the text color for header cells */
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.btn.btn-warning.btn-lg {
+  background-color: #B85042; /* Replace with your desired color code or name */
+  border-color: #B85042; /* You may want to change the border color as well */
+  color: #fff; /* Set the text color to make it readable on the new background */
+}
+
+.container {
+  margin-top: 50px; /* Adjust the value based on your preference */
+}
+
+i{
+color: black;
+}
+
+.row{
+color: black;
+}
